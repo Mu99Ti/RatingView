@@ -10,6 +10,10 @@
 		7B437ECF2A48520300A7DC2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B437ECE2A48520300A7DC2D /* AppDelegate.swift */; };
 		7B437ED32A48520300A7DC2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B437ED22A48520300A7DC2D /* ViewController.swift */; };
 		7B437ED82A48520500A7DC2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B437ED72A48520500A7DC2D /* Assets.xcassets */; };
+		7B437EE42A48539C00A7DC2D /* StarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B437EE32A48539C00A7DC2D /* StarControl.swift */; };
+		7B437EE62A48548A00A7DC2D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B437EE52A48548A00A7DC2D /* MainView.swift */; };
+		7B437EE82A48593C00A7DC2D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B437EE72A48593C00A7DC2D /* Extensions.swift */; };
+		7B437EEB2A485BF100A7DC2D /* Outfit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B437EEA2A485BF100A7DC2D /* Outfit-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +22,10 @@
 		7B437ED22A48520300A7DC2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B437ED72A48520500A7DC2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B437EDC2A48520500A7DC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B437EE32A48539C00A7DC2D /* StarControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarControl.swift; sourceTree = "<group>"; };
+		7B437EE52A48548A00A7DC2D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7B437EE72A48593C00A7DC2D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7B437EEA2A485BF100A7DC2D /* Outfit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Outfit-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +58,49 @@
 		7B437ECD2A48520300A7DC2D /* RatingView */ = {
 			isa = PBXGroup;
 			children = (
+				7B437EED2A485C5600A7DC2D /* ViewController */,
+				7B437EEC2A485C3400A7DC2D /* Assets */,
+				7B437EE22A48534100A7DC2D /* UI */,
 				7B437ECE2A48520300A7DC2D /* AppDelegate.swift */,
-				7B437ED22A48520300A7DC2D /* ViewController.swift */,
-				7B437ED72A48520500A7DC2D /* Assets.xcassets */,
+				7B437EE72A48593C00A7DC2D /* Extensions.swift */,
 				7B437EDC2A48520500A7DC2D /* Info.plist */,
 			);
 			path = RatingView;
+			sourceTree = "<group>";
+		};
+		7B437EE22A48534100A7DC2D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7B437EE32A48539C00A7DC2D /* StarControl.swift */,
+				7B437EE52A48548A00A7DC2D /* MainView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7B437EE92A485BD600A7DC2D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7B437EEA2A485BF100A7DC2D /* Outfit-Regular.ttf */,
+			);
+			name = Fonts;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7B437EEC2A485C3400A7DC2D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7B437ED72A48520500A7DC2D /* Assets.xcassets */,
+				7B437EE92A485BD600A7DC2D /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7B437EED2A485C5600A7DC2D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B437ED22A48520300A7DC2D /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B437EEB2A485BF100A7DC2D /* Outfit-Regular.ttf in Resources */,
 				7B437ED82A48520500A7DC2D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B437EE82A48593C00A7DC2D /* Extensions.swift in Sources */,
+				7B437EE42A48539C00A7DC2D /* StarControl.swift in Sources */,
+				7B437EE62A48548A00A7DC2D /* MainView.swift in Sources */,
 				7B437ED32A48520300A7DC2D /* ViewController.swift in Sources */,
 				7B437ECF2A48520300A7DC2D /* AppDelegate.swift in Sources */,
 			);
