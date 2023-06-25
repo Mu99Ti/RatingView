@@ -1,5 +1,6 @@
 # RatingView
 
 
-https://github.com/Mu99Ti/RatingView/assets/87659760/da01c4e5-3096-4b97-be76-4fe77c17e086
 
+
+![ezgif-5-8d63d2cd90](https://github.com/Mu99Ti/RatingView/assets/87659760/106ceb9d-322a-4e1f-be16-720b12a22d63)
